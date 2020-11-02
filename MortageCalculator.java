@@ -1,3 +1,5 @@
+
+
 public class MortageCalculator{
 
 private final static byte percent = 100;
@@ -16,6 +18,12 @@ public MortageCalculator(int Principal, float annualInterest, byte years){
 
 }
 
+/**
+* This method calculates the monthly balance
+* 
+* @param number of payments made for an entire month
+*/
+
 public double calculateBalance(short numberOfPaymentsMade){
                   
                      
@@ -31,7 +39,9 @@ public double calculateBalance(short numberOfPaymentsMade){
                                            return balance;
                                                                       
                                              }
-
+/*
+*This method calculates the mortage
+*/
 
 
  public  double calculateMortage(){
